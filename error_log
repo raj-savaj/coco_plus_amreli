@@ -1,0 +1,42 @@
+[16-Sep-2020 17:31:48 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/cocoplus/public_html/coco-admin/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[16-Sep-2020 17:31:51 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/cocoplus/public_html/coco-admin/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[27-Sep-2020 15:43:06 UTC] PHP Warning:  include(/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:06 UTC] PHP Warning:  include(/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:06 UTC] PHP Warning:  include(): Failed opening '/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(785): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Cont in /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[27-Sep-2020 15:43:07 UTC] PHP Warning:  include(/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:07 UTC] PHP Warning:  include(/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:07 UTC] PHP Warning:  include(): Failed opening '/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(785): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Cont in /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[27-Sep-2020 15:43:12 UTC] PHP Warning:  include(/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:12 UTC] PHP Warning:  include(/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:12 UTC] PHP Warning:  include(): Failed opening '/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(785): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Cont in /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[27-Sep-2020 15:43:12 UTC] PHP Warning:  include(/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:12 UTC] PHP Warning:  include(/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:12 UTC] PHP Warning:  include(): Failed opening '/home/cocoplus/public_html/coco-admin/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/cocoplus/public_html/coco-admin/vendor/composer/ClassLoader.php on line 444
+[27-Sep-2020 15:43:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(785): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Cont in /home/cocoplus/public_html/coco-admin/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
